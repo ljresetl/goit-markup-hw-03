@@ -21,11 +21,28 @@ img {
 
 .page-header {
         display: flex;
+        /* justify: space-between; */
+        align-items: center;
+
 }
+
+
+
+.div-addres {
+        display: flex;
+        margin-left: auto;
+        align-items: center;
+}
+
+/* .menu-nav-cont {
+        gap: 40px;
+} */
+
 
 .container {
         /* display: flex; */
-        width: 1158px;
+        /* align-items: center; */
+        width: 1128px;
         padding-left: 15px;
         padding-right: 15px;
         margin: 0 auto;
@@ -33,6 +50,11 @@ img {
 }
 
 .menu-nav {
+        display: flex;
+        padding-right: 76px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        padding-left: 156px;
         background-color: #404BBF;
         font-weight: 500; /* Встановлює середню жирність тексту. */
         font-size: 16px; /* Встановлює розмір шрифту у 16px. */
@@ -51,6 +73,9 @@ img {
 }
 
 .main-logo {
+        /* padding-left: 156px;
+        padding-top: 24px;
+        padding-bottom: 24px; */
         background-color: aqua;
         justify-content: flex-start; /* Вирівнює контент логотипа по лівому краю. */
         font-weight: 700; /* Задає жирність тексту. */
@@ -71,6 +96,19 @@ span {
         color: #2e2f42; /* Встановлює темно-сірий колір тексту. */
         font-family: "Raleway", sans-serif; /* Використовує шрифт "Raleway". */
 }
+
+.ul-one {
+        padding-right: 332px;
+        padding-bottom: 24px;
+        padding-top: 24px;
+        display: flex;
+        gap: 40;
+        padding-left: 0px;
+}
+
+/* .ul-two {
+display: flex;
+} */
 
 .menu-nav-a {
         background-color: rebeccapurple;
@@ -112,10 +150,23 @@ span {
 }
 
 .one-section {
+        /* max-width: 1440px;
+        max-height: 600px; */
         background-color: #2e2f42; /* Задає темно-сірий фон для секції. */
 }
 
+/* .div-one-section {
+        padding: 188px 472px 292px 472px;
+} */
+
+/* .page-header {
+        width: 1440px;
+        height: 600px;
+} */
+
 .one-h {
+
+        /* padding: 188px 472px 292px 472px; */
         background-color: chartreuse;
         font-weight: 700; /* Задає жирність тексту. */
         font-size: 56px; /* Встановлює великий розмір шрифту для заголовка. */
