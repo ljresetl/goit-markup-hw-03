@@ -22,17 +22,20 @@ img {
 .page-header {
         display: flex;
         /* justify: space-between; */
-        align-items: center;
+        /* align-items: center; */
+                align-items: flex-start;
+                justify-content: flex-start;
+                flex-direction: row;
 
 }
 
 
 
-.div-addres {
+/* .div-addres {
         display: flex;
         margin-left: auto;
         align-items: center;
-}
+} */
 
 /* .menu-nav-cont {
         gap: 40px;
@@ -49,7 +52,15 @@ img {
         background-color: deeppink;
 }
 
+.div-main-logo {
+/* padding-right: 40px; */
+        /* padding-top: 24px;
+        padding-bottom: 24px; */
+        /* padding-left: 150px; */
+}
+
 .menu-nav {
+        /* gap: 40px; */
         display: flex;
         padding-right: 76px;
         padding-top: 24px;
@@ -73,6 +84,7 @@ img {
 }
 
 .main-logo {
+        /* gap: 25; */
         /* padding-left: 156px;
         padding-top: 24px;
         padding-bottom: 24px; */
@@ -97,7 +109,19 @@ span {
         font-family: "Raleway", sans-serif; /* Використовує шрифт "Raleway". */
 }
 
+/* .her-menu {
+display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+} */
+
 .ul-one {
+        display: flex;
+                align-items: flex-start;
+                justify-content: flex-start;
+                flex-direction: row;
+                gap: 40px;
         padding-right: 332px;
         padding-bottom: 24px;
         padding-top: 24px;
@@ -106,11 +130,22 @@ span {
         padding-left: 0px;
 }
 
+.ul-two {
+        margin-left: auto;
+        /* padding-right: 156px; */
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: row;
+        gap: 40px;
+}
+
 /* .ul-two {
 display: flex;
 } */
 
 .menu-nav-a {
+        /* gap: 24; */
         background-color: rebeccapurple;
         color: #2e2f42; /* Встановлює темно-сірий колір для посилань меню. */
 }
