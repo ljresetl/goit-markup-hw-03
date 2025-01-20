@@ -19,16 +19,21 @@ img {
         max-width: 100%; /* автоматично підлаштовує всі фото під ширину батьківського елемента */
 }
 
-/* .header {
-display: flex;
+.page-header {
+        display: flex;
 }
 
-.page-header .menu-nav-a .mail-tel{
-        display: flex;
-} */
+.container {
+        /* display: flex; */
+        width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        margin: 0 auto;
+        background-color: deeppink;
+}
 
 .menu-nav {
-        /* display: flex; */
+        background-color: #404BBF;
         font-weight: 500; /* Встановлює середню жирність тексту. */
         font-size: 16px; /* Встановлює розмір шрифту у 16px. */
         line-height: 1.5; /* Встановлює висоту міжрядкового інтервалу. */
@@ -46,6 +51,7 @@ display: flex;
 }
 
 .main-logo {
+        background-color: aqua;
         justify-content: flex-start; /* Вирівнює контент логотипа по лівому краю. */
         font-weight: 700; /* Задає жирність тексту. */
         font-size: 18px; /* Встановлює розмір шрифту у 18px. */
@@ -67,26 +73,27 @@ span {
 }
 
 .menu-nav-a {
+        background-color: rebeccapurple;
         color: #2e2f42; /* Встановлює темно-сірий колір для посилань меню. */
 }
 
 .menu-nav-a:hover {
+        background-color: brown;
         color: #404bbf; /* Змінює колір тексту на синій при наведенні. */
 }
 
 .menu-nav-a:focus {
+        background-color: brown;
         color: #404bbf; /* Змінює колір тексту на синій при фокусі. */
 }
 
 .address-mail-tel {
-        /* display: flex;
-        justify-content: space-between; */
+        background-color: burlywood;
         font-style: normal; /* Змінює стиль шрифту на звичайний. */
 }
 
 .mail-tel {
-        /* display: flex;
-        justify-content: space-between; */
+        background-color: cadetblue;
         font-weight: 400; /* Встановлює нормальну жирність тексту. */
         font-size: 16px; /* Задає розмір тексту. */
         line-height: 1.5; /* Встановлює міжрядковий інтервал. */
@@ -109,6 +116,7 @@ span {
 }
 
 .one-h {
+        background-color: chartreuse;
         font-weight: 700; /* Задає жирність тексту. */
         font-size: 56px; /* Встановлює великий розмір шрифту для заголовка. */
         line-height: 1.07; /* Встановлює міжрядковий інтервал. */
@@ -138,6 +146,7 @@ span {
 }
 
 .two-h {
+        background-color: chocolate;
         font-weight: 700; /* Задає жирність тексту. */
         font-size: 36px; /* Встановлює розмір шрифту. */
         line-height: 1.11111; /* Встановлює міжрядковий інтервал. */
@@ -148,6 +157,7 @@ span {
 }
 
 .three-strategy-h {
+        background-color: coral;
         font-weight: 500; /* Встановлює середню жирність тексту. */
         font-size: 20px; /* Задає розмір шрифту. */
         line-height: 1.2; /* Встановлює міжрядковий інтервал. */
@@ -157,6 +167,7 @@ span {
 }
 
 .three-strategy-p {
+        background-color: cornflowerblue;
         font-weight: 400; /* Встановлює нормальну жирність тексту. */
         font-size: 16px; /* Задає розмір тексту. */
         line-height: 1.5; /* Встановлює міжрядковий інтервал. */
@@ -170,6 +181,7 @@ span {
 }
 
 .three-section-h {
+        background-color: crimson;
         font-weight: 700; /* Задає жирність тексту. */
         font-size: 36px; /* Задає розмір тексту. */
         line-height: 1.11; /* Встановлює міжрядковий інтервал. */
@@ -189,6 +201,7 @@ span {
 }
 
 .three-section-h-h {
+        background-color: cyan;
         font-weight: 500; /* Встановлює середню жирність тексту. */
         font-size: 20px; /* Задає розмір шрифту. */
         line-height: 1.2; /* Встановлює міжрядковий інтервал. */
@@ -199,6 +212,7 @@ span {
 }
 
 .three-section-p {
+        background-color: darkblue;
         font-weight: 400; /* Встановлює нормальну жирність тексту. */
         font-size: 16px; /* Задає розмір тексту. */
         line-height: 1.5; /* Встановлює міжрядковий інтервал. */
@@ -225,6 +239,7 @@ span {
 }
 
 .text-p-footer {
+        background-color: darkgreen;
         font-weight: 400; /* Встановлює нормальну жирність тексту. */
         font-size: 16px; /* Задає розмір тексту. */
         line-height: 1.5; /* Встановлює міжрядковий інтервал. */
