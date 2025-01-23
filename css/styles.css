@@ -22,7 +22,7 @@ img {
 .page-header {
         display: flex;
         /* justify: space-between; */
-        /* align-items: center; */
+        align-items: center;
                 align-items: flex-start;
                 justify-content: flex-start;
                 flex-direction: row;
@@ -52,12 +52,12 @@ img {
         background-color: deeppink;
 }
 
-.div-main-logo {
-/* padding-right: 40px; */
-        /* padding-top: 24px;
-        padding-bottom: 24px; */
-        /* padding-left: 150px; */
-}
+/* .div-main-logo {
+padding-right: 40px;
+        padding-top: 24px;
+        padding-bottom: 24px;
+        padding-left: 150px;
+} */
 
 .menu-nav {
         /* gap: 40px; */
