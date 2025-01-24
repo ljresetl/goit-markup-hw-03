@@ -161,14 +161,14 @@ overflow: hidden; /* Приховує будь-які переповнення *
         margin-bottom: 40px; /* Відступ знизу */
 }
 
-.two-section ul {
+.two-section-ul {
         display: flex;
         grid-template-columns: repeat(4, 1fr); /* Розміщує елементи в 4 колонки */
         gap: 24px; /* Відстань між елементами */
         list-style: none; /* Прибирає маркери списку */
 }
 
-.two-section li {
+.two-section-lili {
         width: calc((100% - 72px) / 4);
         text-align: center; /* Центрує елементи списку */
 }
