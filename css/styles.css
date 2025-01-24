@@ -14,340 +14,246 @@ body {
 }
 
 .container {
-        max-width: 1200px; /* Максимальна ширина контейнера */
+        max-width: 1158px; /* Максимальна ширина контейнера */
         margin: 0 auto; /* Центрує контейнер по горизонталі */
         padding: 0 15px; /* Відступи по 15px з боків */
 }
+
 /* Хедер */
-.page-header {
-        display: flex;
-        /* Використовує Flexbox для організації елементів */
-        justify-content: space-between;
-        /* Розміщує елементи з максимальним відстанням між ними */
-        align-items: center;
-        /* Вертикально вирівнює елементи по центру */
-        padding: 20px 0;
-        /* Відступи зверху і знизу */
-        background-color: #f8f9fa;
-        /* Світлий фон */
+.container.page-header {
+        display: flex; /* Використовує Flexbox для контейнера */
+        justify-content: space-between; /* Максимальна відстань між елементами */
+        align-items: center; /* Вирівнювання елементів по вертикалі */
+        padding: 24px 0; /* Відступи зверху і знизу */
+        background-color: #f8f9fa; /* Світлий фон */
 }
 
 .main-logo {
-        font-size: 24px;
-        /* Розмір шрифта для логотипа */
-        font-weight: bold;
-        /* Жирний шрифт */
-        text-transform: uppercase;
-        /* Перетворює текст в верхній регістр */
-        color: #333;
-        /* Колір тексту логотипа */
-        text-decoration: none;
-        /* Прибирає підкреслення з посилання */
+        padding-right: 76px;
+        font-size: 24px; /* Розмір шрифту для логотипа */
+        font-weight: bold; /* Жирний текст */
+        text-transform: uppercase; /* Всі літери великі */
+        color: #333; /* Колір тексту */
+        text-decoration: none; /* Прибирає підкреслення */
+        margin-right: 30px; /* Відступ праворуч для розділення */
 }
 
 .main-logo span {
-        color: #007bff;
-        /* Колір для частини логотипа */
+        color: #007bff; /* Акцентний колір */
 }
 
 .menu-nav {
-        display: flex;
-        /* Використовує Flexbox для організації навігації */
-        justify-content: space-between;
-        /* Розміщує елементи з максимальним відстанням між ними */
-        width: 100%;
-        /* Заповнює всю ширину */
-        align-items: center;
-        /* Вертикально вирівнює елементи по центру */
+        display: flex; /* Використовує Flexbox для навігації */
+        align-items: center; /* Вирівнювання елементів по вертикалі */
+        gap: 40px; /* Відстань між логотипом, меню і контактами */
 }
 
 .ul-one {
-        display: flex;
-        /* Використовує Flexbox для списку */
-        list-style: none;
-        /* Прибирає маркери зі списку */
-        gap: 20px;
-        /* Відстань між елементами списку */
+        display: flex; /* Розташування пунктів меню в один рядок */
+        gap: 20px; /* Відстань між пунктами меню */
+        list-style: none; /* Прибирає маркери зі списку */
+        margin: 0; /* Видаляє зайві відступи */
+        padding: 0; /* Видаляє зайві відступи */
 }
 
-.ul-one-a {
-        text-decoration: none;
-        /* Прибирає підкреслення з посилання */
-        font-size: 16px;
-        /* Розмір шрифта для елементів навігації */
-        color: #333;
-        /* Колір тексту */
-        transition: color 0.3s ease;
-        /* Анімація зміни кольору при ховері */
+.menu-nav-a {
+        text-decoration: none; /* Прибирає підкреслення */
+        font-size: 16px; /* Розмір тексту меню */
+        color: #333; /* Колір тексту */
+        transition: color 0.3s ease; /* Ефект при наведенні */
 }
 
-.ul-one-a:hover {
-        color: #007bff;
-        /* Колір тексту при наведенні */
+.menu-nav-a:hover {
+        color: #007bff; /* Колір при наведенні */
 }
 
 .address-mail-tel {
-        text-align: right;
-        /* Вирівнює текст по правому краю */
+        display: flex; /* Вирівнювання елементів контактів в один рядок */
+        align-items: center; /* Вертикальне вирівнювання */
+        gap: 15px; /* Відстань між емейлом і телефоном */
 }
 
 .ul-two {
-        list-style: none;
-        /* Прибирає маркери зі списку */
+        display: flex; /* Вирівнює контакти в один рядок */
+        gap: 15px; /* Відстань між емейлом і телефоном */
+        list-style: none; /* Прибирає маркери */
+        margin: 0; /* Видаляє зайві відступи */
+        padding: 0; /* Видаляє зайві відступи */
 }
 
 .mail-tel {
-        text-decoration: none;
-        /* Прибирає підкреслення з посилання */
-        color: #333;
-        /* Колір тексту */
-        font-size: 14px;
-        /* Розмір шрифта для елементів контактів */
-        display: block;
-        /* Перетворює елемент на блочний */
-        margin-bottom: 5px;
-        /* Відступ знизу */
+        text-decoration: none; /* Прибирає підкреслення */
+        font-size: 14px; /* Розмір тексту для контактів */
+        color: #333; /* Основний колір тексту */
+        transition: color 0.3s ease; /* Ефект при наведенні */
 }
 
 .mail-tel:hover {
-        color: #007bff;
-        /* Колір тексту при наведенні */
+        color: #007bff; /* Колір при наведенні */
 }
+
 /* Головний банер */
 .one-section {
-        background-color: #333;
-        /* Темний фон */
-        color: white;
-        /* Білий текст */
-        text-align: center;
-        /* Центрує текст */
-        padding: 60px 15px;
-        /* Відступи зверху і знизу */
+        background-color: #333; /* Темний фон */
+        color: white; /* Білий текст */
+        text-align: center; /* Центрує текст */
+        padding: 60px 15px; /* Відступи зверху і знизу */
 }
 
 .one-h {
-        font-size: 36px;
-        /* Розмір шрифта для заголовка */
-        margin-bottom: 20px;
-        /* Відступ знизу */
+        font-size: 36px; /* Розмір шрифта для заголовка */
+        margin-bottom: 20px; /* Відступ знизу */
 }
 
 .one-button {
-        font-size: 16px;
-        /* Розмір шрифта для кнопки */
-        color: white;
-        /* Білий колір тексту */
-        background-color: #007bff;
-        /* Синій фон для кнопки */
-        padding: 10px 20px;
-        /* Відступи всередині кнопки */
-        border: none;
-        /* Без рамки */
-        border-radius: 4px;
-        /* Заокруглені кути */
-        cursor: pointer;
-        /* Курсор у вигляді руки */
-        transition: background-color 0.3s ease;
-        /* Анімація зміни кольору при ховері */
+        font-size: 16px; /* Розмір шрифта для кнопки */
+        color: white; /* Білий колір тексту */
+        background-color: #007bff; /* Синій фон для кнопки */
+        padding: 10px 20px; /* Відступи всередині кнопки */
+        border: none; /* Без рамки */
+        border-radius: 4px; /* Заокруглені кути */
+        cursor: pointer; /* Курсор у вигляді руки */
+        transition: background-color 0.3s ease; /* Анімація зміни кольору при ховері */
 }
 
 .one-button:hover {
-        background-color: #0056b3;
-        /* Темніший колір при наведенні */
+        background-color: #0056b3; /* Темніший колір при наведенні */
 }
+
 /* Розділ "Advantages" */
 .two-section {
-        padding: 40px 0;
-        /* Відступи зверху і знизу */
+        padding: 40px 0; /* Відступи зверху і знизу */
 }
 
 .two-h {
-        text-align: center;
-        /* Центрує заголовок */
-        font-size: 28px;
-        /* Розмір шрифта для заголовка */
-        margin-bottom: 40px;
-        /* Відступ знизу */
+        text-align: center; /* Центрує заголовок */
+        font-size: 28px; /* Розмір шрифта для заголовка */
+        margin-bottom: 40px; /* Відступ знизу */
 }
 
 .two-section ul {
-        display: grid;
-        /* Використовує Grid для списку */
-        grid-template-columns: repeat(4, 1fr);
-        /* Розміщує елементи в 4 колонки */
-        gap: 30px;
-        /* Відстань між елементами */
-        list-style: none;
-        /* Прибирає маркери списку */
+        display: grid; /* Використовує Grid для списку */
+        grid-template-columns: repeat(4, 1fr); /* Розміщує елементи в 4 колонки */
+        gap: 30px; /* Відстань між елементами */
+        list-style: none; /* Прибирає маркери списку */
 }
 
 .two-section li {
-        text-align: center;
-        /* Центрує елементи списку */
+        text-align: center; /* Центрує елементи списку */
 }
 
 .three-strategy-h {
-        font-size: 18px;
-        /* Розмір шрифта для підзаголовка */
-        margin-bottom: 10px;
-        /* Відступ знизу */
-        font-weight: bold;
-        /* Жирний шрифт */
+        font-size: 18px; /* Розмір шрифта для підзаголовка */
+        margin-bottom: 10px; /* Відступ знизу */
+        font-weight: bold; /* Жирний шрифт */
 }
 
 .three-strategy-p {
-        font-size: 14px;
-        /* Розмір шрифта для опису */
-        color: #555;
-        /* Колір тексту */
+        font-size: 14px; /* Розмір шрифта для опису */
+        color: #555; /* Колір тексту */
 }
+
 /* Розділ "Our Team" */
 .three-section {
-        padding: 40px 0;
-        /* Відступи зверху і знизу */
+        padding: 40px 0; /* Відступи зверху і знизу */
 }
 
 .three-section-h {
-        text-align: center;
-        /* Центрує заголовок */
-        font-size: 28px;
-        /* Розмір шрифта для заголовка */
-        margin-bottom: 40px;
-        /* Відступ знизу */
+        text-align: center; /* Центрує заголовок */
+        font-size: 28px; /* Розмір шрифта для заголовка */
+        margin-bottom: 40px; /* Відступ знизу */
 }
 
 .three-section ul {
-        display: grid;
-        /* Використовує Grid для списку */
-        grid-template-columns: repeat(4, 1fr);
-        /* Розміщує елементи в 4 колонки */
-        gap: 30px;
-        /* Відстань між елементами */
-        list-style: none;
-        /* Прибирає маркери списку */
+        display: grid; /* Використовує Grid для списку */
+        grid-template-columns: repeat(4, 1fr); /* Розміщує елементи в 4 колонки */
+        gap: 30px; /* Відстань між елементами */
+        list-style: none; /* Прибирає маркери списку */
 }
 
 .three-section-li-one {
-        text-align: center;
-        /* Центрує елементи списку */
+        text-align: center; /* Центрує елементи списку */
 }
 
 .three-section img {
-        border-radius: 50%;
-        /* Кругле обрізання для зображення */
-        width: 100%;
-        /* Ширина 100% */
-        max-width: 260px;
-        /* Максимальна ширина 260px */
-        height: auto;
-        /* Пропорційне масштабування висоти */
-        margin: 0 auto 15px;
-        /* Центрує зображення і додає відступ знизу */
+        border-radius: 50%; /* Кругле обрізання для зображення */
+        width: 100%; /* Ширина 100% */
+        max-width: 260px; /* Максимальна ширина 260px */
+        height: auto; /* Пропорційне масштабування висоти */
+        margin: 0 auto 15px; /* Центрує зображення і додає відступ знизу */
 }
 
 .three-section-h-h {
-        font-size: 18px;
-        /* Розмір шрифта для підзаголовка */
-        font-weight: bold;
-        /* Жирний шрифт */
-        margin-bottom: 5px;
-        /* Відступ знизу */
+        font-size: 18px; /* Розмір шрифта для підзаголовка */
+        font-weight: bold; /* Жирний шрифт */
+        margin-bottom: 5px; /* Відступ знизу */
 }
 
 .three-section-p {
-        font-size: 14px;
-        /* Розмір шрифта для опису */
-        color: #555;
-        /* Колір тексту */
+        font-size: 14px; /* Розмір шрифта для опису */
+        color: #555; /* Колір тексту */
 }
+
 /* Розділ "Our Portfolio" */
 .four-section {
-        padding: 40px 0;
-        /* Відступи зверху і знизу */
+        padding: 40px 0; /* Відступи зверху і знизу */
 }
 
 .four-section-h {
-        text-align: center;
-        /* Центрує заголовок */
-        font-size: 28px;
-        /* Розмір шрифта для заголовка */
-        margin-bottom: 40px;
-        /* Відступ знизу */
+        text-align: center; /* Центрує заголовок */
+        font-size: 28px; /* Розмір шрифта для заголовка */
+        margin-bottom: 40px; /* Відступ знизу */
 }
 
 .four-section ul {
-        display: grid;
-        /* Використовує Grid для списку */
-        grid-template-columns: repeat(3, 1fr);
-        /* Розміщує елементи в 3 колонки */
-        gap: 30px;
-        /* Відстань між елементами */
-        list-style: none;
-        /* Прибирає маркери списку */
+        display: grid; /* Використовує Grid для списку */
+        grid-template-columns: repeat(3, 1fr); /* Розміщує елементи в 3 колонки */
+        gap: 30px; /* Відстань між елементами */
+        list-style: none; /* Прибирає маркери списку */
 }
 
 .four-section li {
-        text-align: center;
-        /* Центрує елементи списку */
+        text-align: center; /* Центрує елементи списку */
 }
 
 .four-section img {
-        width: 100%;
-        /* Ширина 100% */
-        max-width: 360px;
-        /* Максимальна ширина 360px */
-        height: auto;
-        /* Пропорційне масштабування висоти */
-        margin: 0 auto 15px;
-        /* Центрує зображення і додає відступ знизу */
-        border-radius: 4px;
-        /* Заокруглені кути */
+        width: 100%; /* Ширина 100% */
+        max-width: 360px; /* Максимальна ширина 360px */
+        height: auto; /* Пропорційне масштабування висоти */
+        margin: 0 auto 15px; /* Центрує зображення і додає відступ знизу */
+        border-radius: 4px; /* Заокруглені кути */
 }
 
 .four-section-h-one {
-        font-size: 18px;
-        /* Розмір шрифта для підзаголовка */
-        font-weight: bold;
-        /* Жирний шрифт */
-        margin-bottom: 5px;
-        /* Відступ знизу */
+        font-size: 18px; /* Розмір шрифта для підзаголовка */
+        font-weight: bold; /* Жирний шрифт */
+        margin-bottom: 5px; /* Відступ знизу */
 }
 
 .four-section-p-one {
-        font-size: 14px;
-        /* Розмір шрифта для опису */
-        color: #555;
-        /* Колір тексту */
+        font-size: 14px; /* Розмір шрифта для опису */
+        color: #555; /* Колір тексту */
 }
+
 /* Футер */
 .footer-test {
-        background-color: #f1f1f1;
-        /* Світлий фон для футера */
-        text-align: center;
-        /* Центрує текст */
-        padding: 20px 15px;
-        /* Відступи зверху і знизу */
-        color: #777;
-        /* Колір тексту */
+        background-color: #f1f1f1; /* Світлий фон для футера */
+        text-align: center; /* Центрує текст */
+        padding: 20px 15px; /* Відступи зверху і знизу */
+        color: #777; /* Колір тексту */
 }
 
 .footer-test .main-logo {
-        text-decoration: none;
-        /* Прибирає підкреслення з логотипа */
-        font-size: 20px;
-        /* Розмір шрифта для логотипа */
-        color: #333;
-        /* Колір тексту для логотипа */
+        text-decoration: none; /* Прибирає підкреслення з логотипа */
+        font-size: 20px; /* Розмір шрифта для логотипа */
+        color: #333; /* Колір тексту для логотипа */
 }
 
 .footer-test .main-logo span {
-        color: #007bff;
-        /* Колір для частини логотипа */
+        color: #007bff; /* Колір для частини логотипа */
 }
 
 .text-p-footer {
-        font-size: 14px;
-        /* Розмір шрифта для тексту футера */
-        margin-top: 10px;
-        /* Відступ зверху */
+        font-size: 14px; /* Розмір шрифта для тексту футера */
+        margin-top: 10px; /* Відступ зверху */
 }
