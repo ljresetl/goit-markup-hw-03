@@ -272,10 +272,16 @@ overflow: hidden; /* Приховує будь-які переповнення *
 
 /* Футер */
 .footer-test {
+        padding: 100px 0;
         background-color: #f1f1f1; /* Світлий фон для футера */
         text-align: center; /* Центрує текст */
         padding: 20px 15px; /* Відступи зверху і знизу */
         color: #777; /* Колір тексту */
+}
+
+.footer-test a {
+        display: inline-block;
+        margin-bottom: 16px;
 }
 
 .footer-test .main-logo {
