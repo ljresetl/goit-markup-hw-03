@@ -30,16 +30,12 @@ img {
 }
 
 .container {
-        padding: 0 15px;
-        width: 1158px; /* Ширина контейнера */
-        margin: 0 auto; /* Центрування контейнера */
-        /* padding: 15px 0; Відступи зверху і знизу */
-}
-
-.container-wrapper {
         display: flex; /* Розташування елементів в один рядок */
         justify-content: space-between; /* Простір між логотипом, меню і контактами */
         align-items: center; /* Вирівнювання по вертикалі */
+        padding: 0 15px;
+        width: 1158px; /* Ширина контейнера */
+        margin: 0 auto; /* Центрування контейнера */
 }
 
 .main-logo {
