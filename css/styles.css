@@ -69,6 +69,7 @@ img {
         font-size: 16px;
         color: #333;
         transition: color 0.3s ease; /* Анімація зміни кольору */
+        padding: 24px 0;
 }
 
 .menu-link:hover {
@@ -76,6 +77,7 @@ img {
 }
 
 .contacts {
+        gap: 40px;
         display: flex; /* Горизонтальне вирівнювання контактів */
 }
 
