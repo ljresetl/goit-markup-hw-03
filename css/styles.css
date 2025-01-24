@@ -278,19 +278,29 @@ overflow: hidden; /* Приховує будь-які переповнення *
 
 /* Футер */
 .footer-test {
-        padding: 100px 0;
+        /* padding: 100px 0; */
         background-color: #f1f1f1; /* Світлий фон для футера */
         text-align: center; /* Центрує текст */
         padding: 20px 15px; /* Відступи зверху і знизу */
         color: #777; /* Колір тексту */
 }
 
+.container-foter {
+padding: 100px 0;
+}
+
+/* .main-logo {
+padding: 100px 0;
+} */
+
 .footer-test a {
+        /* padding: 100px 0; */
         display: inline-block;
         margin-bottom: 16px;
 }
 
 .footer-test .main-logo {
+        /* padding: 100px 0; */
         text-decoration: none; /* Прибирає підкреслення з логотипа */
         font-size: 20px; /* Розмір шрифта для логотипа */
         color: #333; /* Колір тексту для логотипа */
