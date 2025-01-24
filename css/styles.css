@@ -171,7 +171,7 @@ overflow: hidden; /* Приховує будь-які переповнення *
         list-style: none; /* Прибирає маркери списку */
 }
 
-.two-section-lili {
+.two-section-li {
         width: calc((100% - 72px) / 4);
         text-align: center; /* Центрує елементи списку */
 }
