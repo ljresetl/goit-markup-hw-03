@@ -19,29 +19,27 @@ body {
         padding: 0 15px; /* Відступи по 15px з боків */
 }
 
+img {
+         display: block; /* перетворення картинки в блоковий елемент */
+}
+
 /* Хедер */
 
 .page-header {
-        border-bottom: 1px solid #e7e9fc;
-        /* Нижня рамка */
+        border-bottom: 1px solid #e7e9fc; /* Нижня рамка */
 }
 
 .container {
-        width: 1158px;
-        /* Ширина контейнера */
-        margin: 0 auto;
-        /* Центрування контейнера */
-        padding: 15px 0;
-        /* Відступи зверху і знизу */
+        padding: 0 15px;
+        width: 1158px; /* Ширина контейнера */
+        margin: 0 auto; /* Центрування контейнера */
+        /* padding: 15px 0; Відступи зверху і знизу */
 }
 
 .container-wrapper {
-        display: flex;
-        /* Розташування елементів в один рядок */
-        justify-content: space-between;
-        /* Простір між логотипом, меню і контактами */
-        align-items: center;
-        /* Вирівнювання по вертикалі */
+        display: flex; /* Розташування елементів в один рядок */
+        justify-content: space-between; /* Простір між логотипом, меню і контактами */
+        align-items: center; /* Вирівнювання по вертикалі */
 }
 
 .main-logo {
@@ -50,57 +48,45 @@ body {
         text-transform: uppercase;
         color: #333;
         text-decoration: none;
-        margin-right: 76px;
-        /* Відступ для логотипа */
+        margin-right: 76px; /* Відступ для логотипа */
 }
 
 .main-logo span {
-        color: #007bff;
-        /* Колір частини логотипа */
+        color: #007bff; /* Колір частини логотипа */
 }
 
 .menu {
-        display: flex;
-        /* Горизонтальне розташування меню */
+        align-items: center;
+        display: flex; /* Горизонтальне розташування меню */
 }
 
 .menu-list {
-        display: flex;
-        /* Горизонтальне вирівнювання пунктів меню */
-        gap: 40px;
-        /* Відстань між пунктами меню */
-        list-style: none;
-        /* Прибрано маркери */
+        display: flex; /* Горизонтальне вирівнювання пунктів меню */
+        gap: 40px; /* Відстань між пунктами меню */
+        list-style: none; /* Прибрано маркери */
         margin: 0;
         padding: 0;
 }
 
 .menu-link {
-        text-decoration: none;
-        /* Прибрано підкреслення */
+        text-decoration: none; /* Прибрано підкреслення */
         font-size: 16px;
         color: #333;
-        transition: color 0.3s ease;
-        /* Анімація зміни кольору */
+        transition: color 0.3s ease; /* Анімація зміни кольору */
 }
 
 .menu-link:hover {
-        color: #007bff;
-        /* Колір при наведенні */
+        color: #007bff; /* Колір при наведенні */
 }
 
 .contacts {
-        display: flex;
-        /* Горизонтальне вирівнювання контактів */
+        display: flex; /* Горизонтальне вирівнювання контактів */
 }
 
 .contacts-list {
-        display: flex;
-        /* Горизонтальне розташування контактів */
-        gap: 40px;
-        /* Відстань між контактами */
-        list-style: none;
-        /* Прибрано маркери */
+        display: flex; /* Горизонтальне розташування контактів */
+        gap: 40px; /* Відстань між контактами */
+        list-style: none; /* Прибрано маркери */
         margin: 0;
         padding: 0;
 }
@@ -121,30 +107,57 @@ body {
 
 /* Головний банер */
 .one-section {
-        background-color: #333; /* Темний фон */
-        color: white; /* Білий текст */
-        text-align: center; /* Центрує текст */
-        padding: 60px 15px; /* Відступи зверху і знизу */
+        background-color: #333;
+        /* Темний фон */
+        color: white;
+        /* Білий текст */
+        text-align: center;
+        /* Центрує текст */
+        padding: 188px 0;
+        /* Виправлено: Відступи зверху і знизу */
 }
 
 .one-h {
-        font-size: 36px; /* Розмір шрифта для заголовка */
-        margin-bottom: 20px; /* Відступ знизу */
+        font-size: 36px;
+        /* Розмір шрифта для заголовка */
+        margin-bottom: 20px;
+        /* Відступ знизу */
+        max-width: 496px;
+        /* Виправлено: Обмеження ширини заголовка */
+        margin: 0 auto;
+        /* Центрування заголовка */
 }
 
 .one-button {
-        font-size: 16px; /* Розмір шрифта для кнопки */
-        color: white; /* Білий колір тексту */
-        background-color: #007bff; /* Синій фон для кнопки */
-        padding: 10px 20px; /* Відступи всередині кнопки */
-        border: none; /* Без рамки */
-        border-radius: 4px; /* Заокруглені кути */
-        cursor: pointer; /* Курсор у вигляді руки */
-        transition: background-color 0.3s ease; /* Анімація зміни кольору при ховері */
+        display: block;
+        /* Виправлено: Для центрування кнопки */
+        margin: 0 auto;
+        /* Центрування через margin */
+        min-width: 169px;
+        /* Виправлено: Мінімальна ширина кнопки */
+        height: 56px;
+        /* Виправлено: Висота кнопки */
+        font-size: 16px;
+        /* Розмір шрифта для кнопки */
+        color: white;
+        /* Білий колір тексту */
+        background-color: #4d5ae5;
+        /* Виправлено: Колір кнопки */
+        padding: 10px 20px;
+        /* Відступи всередині кнопки */
+        border: none;
+        /* Без рамки */
+        border-radius: 4px;
+        /* Заокруглені кути */
+        cursor: pointer;
+        /* Курсор у вигляді руки */
+        transition: background-color 0.3s ease;
+        /* Анімація зміни кольору при ховері */
 }
 
 .one-button:hover {
-        background-color: #0056b3; /* Темніший колір при наведенні */
+        background-color: #0056b3;
+        /* Темніший колір при наведенні */
 }
 
 /* Розділ "Advantages" */
