@@ -104,11 +104,14 @@ img {
 }
 
 /* Головний банер */
-.one-section {
+.one-section { 
         background-color: #333; /* Темний фон */
         color: white; /* Білий текст */
         text-align: center; /* Центрує текст */
-        padding: 188px 0; /* Відступи зверху і знизу */
+        padding-bottom: 292px;
+        padding-left: 472px;
+        padding-top: 116px;
+        padding-right: 472px;
 }
 
 .one-h {
@@ -186,8 +189,8 @@ overflow: hidden; /* Приховує будь-які переповнення *
 
 /* Розділ "Our Team" */
 .three-section {
-        padding: 120px 0;
-        padding: 40px 0; /* Відступи зверху і знизу */
+        padding: 120px 0; /* Відступи зверху і знизу */
+        /* padding: 40px 0;  */
 }
 
 .three-section-h {
@@ -206,6 +209,7 @@ overflow: hidden; /* Приховує будь-які переповнення *
 }
 
 .three-section-li-one {
+        /* display: flex; */
         width: calc((100% - 72px) / 4);
         text-align: center; /* Центрує елементи списку */
 }
