@@ -186,23 +186,27 @@ overflow: hidden; /* Приховує будь-які переповнення *
 
 /* Розділ "Our Team" */
 .three-section {
+        padding: 120px 0;
         padding: 40px 0; /* Відступи зверху і знизу */
 }
 
 .three-section-h {
         text-align: center; /* Центрує заголовок */
         font-size: 28px; /* Розмір шрифта для заголовка */
-        margin-bottom: 40px; /* Відступ знизу */
+        margin-bottom: 72px; /* Відступ знизу */
 }
 
 .three-section ul {
-        display: grid; /* Використовує Grid для списку */
-        grid-template-columns: repeat(4, 1fr); /* Розміщує елементи в 4 колонки */
-        gap: 30px; /* Відстань між елементами */
+        /* width: calc((100% - 72px) / 4); */
+        display: flex;
+        
+        /*grid-template-columns: repeat(4, 1fr);  Розміщує елементи в 4 колонки */
+        gap: 24px; /* Відстань між елементами */
         list-style: none; /* Прибирає маркери списку */
 }
 
 .three-section-li-one {
+        width: calc((100% - 72px) / 4);
         text-align: center; /* Центрує елементи списку */
 }
 
