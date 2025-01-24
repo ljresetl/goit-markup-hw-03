@@ -105,52 +105,32 @@ img {
 
 /* Головний банер */
 .one-section {
-        background-color: #333;
-        /* Темний фон */
-        color: white;
-        /* Білий текст */
-        text-align: center;
-        /* Центрує текст */
-        padding: 188px 0;
-        /* Виправлено: Відступи зверху і знизу */
+        background-color: #333; /* Темний фон */
+        color: white; /* Білий текст */
+        text-align: center; /* Центрує текст */
+        padding: 188px 0; /* Відступи зверху і знизу */
 }
 
 .one-h {
-        font-size: 36px;
-        /* Розмір шрифта для заголовка */
-        margin-bottom: 20px;
-        /* Відступ знизу */
-        max-width: 496px;
-        /* Виправлено: Обмеження ширини заголовка */
-        margin: 0 auto;
-        /* Центрування заголовка */
+        font-size: 36px; /* Розмір шрифта для заголовка */
+        margin-bottom: 20px; /* Відступ знизу */
+        max-width: 496px; /* Обмеження ширини заголовка */
+        margin: 0 auto; /* Центрування заголовка */
 }
 
 .one-button {
-        display: block;
-        /* Виправлено: Для центрування кнопки */
-        margin: 0 auto;
-        /* Центрування через margin */
-        min-width: 169px;
-        /* Виправлено: Мінімальна ширина кнопки */
-        height: 56px;
-        /* Виправлено: Висота кнопки */
-        font-size: 16px;
-        /* Розмір шрифта для кнопки */
-        color: white;
-        /* Білий колір тексту */
-        background-color: #4d5ae5;
-        /* Виправлено: Колір кнопки */
-        padding: 10px 20px;
-        /* Відступи всередині кнопки */
-        border: none;
-        /* Без рамки */
-        border-radius: 4px;
-        /* Заокруглені кути */
-        cursor: pointer;
-        /* Курсор у вигляді руки */
-        transition: background-color 0.3s ease;
-        /* Анімація зміни кольору при ховері */
+        display: block; /* Для центрування кнопки */
+        margin: 0 auto; /* Центрування через margin */
+        min-width: 169px; /* Мінімальна ширина кнопки */
+        height: 56px; /* Висота кнопки */
+        font-size: 16px; /* Розмір шрифта для кнопки */
+        color: white; /* Білий колір тексту */
+        background-color: #4d5ae5; /* Колір кнопки */
+        padding: 10px 20px; /* Відступи всередині кнопки */
+        border: none; /* Без рамки */
+        border-radius: 4px; /* Заокруглені кути */
+        cursor: pointer; /* Курсор у вигляді руки */
+        transition: background-color 0.3s ease; /* Анімація зміни кольору при ховері */
 }
 
 .one-button:hover {
@@ -160,7 +140,19 @@ img {
 
 /* Розділ "Advantages" */
 .two-section {
-        padding: 40px 0; /* Відступи зверху і знизу */
+        padding: 120px 0; /* Відступи зверху і знизу */
+}
+
+.visually-hidden {
+position: absolute; /* Витісняє елемент з потоку документа */
+width: 1px; /* Зменшує розміри елемента до мінімуму */
+height: 1px; /* Зменшує розміри елемента до мінімуму */
+margin: -1px; /* Витісняє елемент за межі видимого простору */
+padding: 0; /* Відключає будь-які відступи */
+border: 0; /* Вимикає будь-які рамки */
+clip: rect(0, 0, 0, 0); /* Приховує елемент за допомогою прямокутного обрізання */
+white-space: nowrap; /* Зупиняє перенесення тексту */
+overflow: hidden; /* Приховує будь-які переповнення */
 }
 
 .two-h {
@@ -170,19 +162,20 @@ img {
 }
 
 .two-section ul {
-        display: grid; /* Використовує Grid для списку */
+        display: flex;
         grid-template-columns: repeat(4, 1fr); /* Розміщує елементи в 4 колонки */
-        gap: 30px; /* Відстань між елементами */
+        gap: 24px; /* Відстань між елементами */
         list-style: none; /* Прибирає маркери списку */
 }
 
 .two-section li {
+        width: calc((100% - 72px) / 4);
         text-align: center; /* Центрує елементи списку */
 }
 
 .three-strategy-h {
         font-size: 18px; /* Розмір шрифта для підзаголовка */
-        margin-bottom: 10px; /* Відступ знизу */
+        margin-bottom: 8px; /* Відступ знизу */
         font-weight: bold; /* Жирний шрифт */
 }
 
