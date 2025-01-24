@@ -108,10 +108,12 @@ img {
         background-color: #333; /* Темний фон */
         color: white; /* Білий текст */
         text-align: center; /* Центрує текст */
-        padding-bottom: 292px;
+        /* padding-bottom: 292px;
         padding-left: 472px;
         padding-top: 116px;
-        padding-right: 472px;
+        padding-right: 472px; */
+        padding-top: 188px;
+        padding-bottom: 188px;
 }
 
 .one-h {
