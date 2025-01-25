@@ -199,7 +199,13 @@ img {
         padding: 120px 0; /* Відступи зверху і знизу */
 }
 
+.main-logo {
+        display: inline-block;
+}
+
 .visually-hidden {
+
+        clip-path: inset(100%);
         position: absolute; /* Витягує елемент з потоку документа */
         width: 1px; /* Задає мінімальну ширину */
         height: 1px; /* Задає мінімальну висоту */
@@ -348,7 +354,6 @@ img {
 
 .four_section_li {
         width: calc((100% - 48px) / 3);
-        text-align: center;
 }
 
 .four_section_foto {
@@ -391,8 +396,8 @@ img {
 }
 
 .footer_test a {
-        /*display: inline-block;  Блочні властивості для посилання */
-        margin-bottom: 16px; /* Відступ між посиланням та параграфом */
+        display: inline-block; /*Блочні властивості для посилання */
+        margin-bottom: 16px; /*Відступ між посиланням та параграфом */
 }
 
 .footer_test .main_logo {
