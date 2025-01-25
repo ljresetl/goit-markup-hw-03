@@ -298,38 +298,54 @@ img {
         color: #555;
 }
 /* Футер */
-.footer-test { /* padding: 100px 0; */
-        background-color: #f1f1f1; /* Світлий фон для футера */
-        text-align: center; /* Центрує текст */
-        padding: 20px 15px; /* Відступи зверху і знизу */
-        color: #777; /* Колір тексту */
-}
-
-.container-foter {
+.footer_test {
+        background-color: #f1f1f1;
+        /* Світлий фон для футера */
+        text-align: center;
+        /* Центрує текст */
         padding: 100px 0;
+        /* Відступи зверху і знизу */
+        color: #777;
+        /* Колір тексту */
 }
 
-/* .main-logo {
-padding: 100px 0;
-} */
+.container_footer {
+        padding-top: 100px;
+        /* Відступ зверху */
+        padding-bottom: 100px;
+        /* Відступ знизу */
+}
 
-.footer-test a {
-        /* padding: 100px 0; */
+.footer_test a {
         display: inline-block;
+        /* Блочні властивості для посилання */
         margin-bottom: 16px;
+        /* Відступ між посиланням та параграфом */
 }
 
-.footer-test .main-logo { /* padding: 100px 0; */
-        text-decoration: none; /* Прибирає підкреслення з логотипа */
-        font-size: 20px; /* Розмір шрифта для логотипа */
-        color: #333; /* Колір тексту для логотипа */
+.footer_test .main_logo {
+        text-decoration: none;
+        /* Прибирає підкреслення з логотипа */
+        font-size: 20px;
+        /* Розмір шрифта для логотипа */
+        color: #333;
+        /* Колір тексту для логотипа */
 }
 
-.footer-test .main-logo span {
-        color: #007bff; /* Колір для частини логотипа */
+.footer_test .main_logo span {
+        color: #007bff;
+        /* Колір для частини логотипа */
 }
 
-.text-p-footer {
-        font-size: 14px; /* Розмір шрифта для тексту футера */
-        margin-top: 10px; /* Відступ зверху */
+.text_p_footer {
+        font-size: 14px;
+        /* Розмір шрифта для тексту футера */
+        margin-top: 10px;
+        /* Відступ зверху */
+        max-width: 264px;
+        /* Максимальна ширина тексту */
+        margin-left: auto;
+        /* Центрування */
+        margin-right: auto;
+        /* Центрування */
 }
