@@ -253,9 +253,9 @@ img {
 }
 
 .four_section_h {
-        text-align: center;
-        font-size: 28px;
-        margin-bottom: 72px;
+        text-align: center; /* Центрує заголовок */
+        font-size: 28px; /* Розмір шрифта для заголовка */
+        margin-bottom: 72px; /* Відступ знизу */
 }
 
 .four_section_list {
@@ -263,6 +263,9 @@ img {
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 48px;
+        list-style-type: none; /* Прибирає маркери списку */
+        padding: 0; /* Видаляє відступи по замовчуванню */
+        margin: 0; /* Видаляє відступи по замовчуванню */
 }
 
 .four_section_li {
