@@ -249,18 +249,13 @@ img {
 
 /* Розділ "Our Portfolio" */
 .four-section {
-        padding: 120px 0 120px 0;
-        /* padding: 40px 0;  Відступи зверху і знизу */
+        padding: 120px 0;
 }
 
 .four-section-h {
-        text-align: center; /* Центрує заголовок */
-        font-size: 28px; /* Розмір шрифта для заголовка */
-        margin-bottom: 72px; /* Відступ знизу */
-}
-
-.spusok {
-        width: calc((100% - 48px) / 3);
+        text-align: center;
+        font-size: 28px;
+        margin-bottom: 72px;
 }
 
 .div-foursection-spusok {
@@ -268,40 +263,46 @@ img {
         flex-wrap: wrap;
         column-gap: 24px;
         row-gap: 48px;
-        /* width: calc((100% - 48px) / 3); */
 }
 
 .four-section ul {
-        display: grid; /* Використовує Grid для списку */
-        grid-template-columns: repeat(3, 1fr); /* Розміщує елементи в 3 колонки */
-        gap: 30px; /* Відстань між елементами */
-        list-style: none; /* Прибирає маркери списку */
+        display: flex;
+        flex-wrap: wrap;
+        gap: 24px;
+        list-style: none;
+        padding: 0;
+        margin: 0;
 }
 
-.four-section-li-one {
-        /* width: calc((100% - 48px) / 3); */
-        text-align: center; /* Центрує елементи списку */
+.four-section-li {
+        width: calc((100% - 48px) / 3);
+        text-align: center;
 }
 
-.four-section img {
-        width: 100%; /* Ширина 100% */
-        max-width: 360px; /* Максимальна ширина 360px */
-        height: auto; /* Пропорційне масштабування висоти */
-        margin: 0 auto 15px; /* Центрує зображення і додає відступ знизу */
-        border-radius: 4px; /* Заокруглені кути */
+.four-section-foto {
+        width: 100%;
+        max-width: 360px;
+        height: auto;
+        margin: 0 auto 15px;
+        border-radius: 4px;
+}
+
+.spusok {
+        padding: 32px 16px;
+        border: 1px solid #e7e9fc;
+        border-top: none;
 }
 
 .four-section-h-one {
-        font-size: 18px; /* Розмір шрифта для підзаголовка */
-        font-weight: bold; /* Жирний шрифт */
-        margin-bottom: 5px; /* Відступ знизу */
+        font-size: 18px;
+        font-weight: bold;
+        margin-bottom: 8px;
 }
 
 .four-section-p-one {
-        font-size: 14px; /* Розмір шрифта для опису */
-        color: #555; /* Колір тексту */
+        font-size: 14px;
+        color: #555;
 }
-
 /* Футер */
 .footer-test { /* padding: 100px 0; */
         background-color: #f1f1f1; /* Світлий фон для футера */
