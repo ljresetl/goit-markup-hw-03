@@ -315,6 +315,7 @@ img {
 }
 
 .footer_test .main_logo {
+        display: inline-block;
         text-decoration: none; /* Прибирає підкреслення з логотипа */
         font-size: 20px; /* Розмір шрифта для логотипа */
         color: #333; /* Колір тексту для логотипа */
