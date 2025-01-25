@@ -254,8 +254,8 @@ img {
 
 .four_section_h {
         text-align: center; /* Центрує заголовок */
-        font-size: 28px; /* Розмір шрифта для заголовка */
-        margin-bottom: 72px; /* Відступ знизу */
+        font-size: 28px;
+        margin-bottom: 72px; /* Відступ між заголовком і списком */
 }
 
 .four_section_list {
