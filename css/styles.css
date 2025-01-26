@@ -141,10 +141,8 @@ img {
 /* Головний банер */
 .one-section {
         background-color: #2e2f42; /* Задає темно-сірий фон для секції. */
-        color: white;
-        /* Білий текст */
-        text-align: center;
-        /* Центрує текст */
+        color: white; /* Білий текст */
+ text-align: center; /* Центрує текст */
         /* padding-bottom: 292px;
         padding-left: 472px;
         padding-top: 116px;
@@ -161,7 +159,7 @@ img {
         text-align: center; /* Центрує текст. */
         color: #fff; /* Робить текст білим. */
         font-family: "Roboto", sans-serif; /* Використовує шрифт "Roboto". */
-        margin-bottom: 20px; /* Відступ знизу */
+        margin-bottom: 0px; /* Відступ знизу */
         max-width: 496px; /* Обмеження ширини заголовка */
         margin: 0 auto; /* Центрування заголовка */
 }
@@ -184,6 +182,7 @@ img {
         border-radius: 4px; /* Заокруглені кути */
         cursor: pointer; /* Курсор у вигляді руки */
         transition: background-color 0.3s ease; /* Анімація зміни кольору при ховері */
+        margin-top: 48px;
 }
 
 .one-button:hover {
@@ -266,6 +265,13 @@ img {
         padding: 120px 0; /* Відступи зверху і знизу */
 }
 
+.ourteam {
+        max-width: 1158px; /* Максимальна ширина контейнера */
+        margin: 0 auto; /* Центрує контейнер по горизонталі */
+        padding: 0 15px; /* Відступи по 15px з боків */
+        margin-bottom: 72px; /* Відступ знизу */
+}
+
 .three-section-h {
         font-weight: 700; /* Задає жирність тексту. */
         font-size: 36px; /* Задає розмір тексту. */
@@ -275,7 +281,7 @@ img {
         color: #2e2f42; /* Встановлює темно-сірий колір тексту. */
         font-family: "Roboto", sans-serif; /* Використовує шрифт "Roboto". */
         text-transform: capitalize; /* Перетворює першу літеру кожного слова на велику. */
-        margin-bottom: 72px; /* Відступ знизу */
+        
 }
 
 .three-section-list {
@@ -334,6 +340,12 @@ img {
 /* Розділ "Our Portfolio" */
 .four_section {
         padding: 120px 0;
+}
+
+.ourportfolio {
+        max-width: 1158px; /* Максимальна ширина контейнера */
+        margin: 0 auto; /* Центрує контейнер по горизонталі */
+        padding: 0 15px; /* Відступи по 15px з боків */
 }
 
 .four_section_h {
