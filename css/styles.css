@@ -142,7 +142,7 @@ img {
 .one-section {
         background-color: #2e2f42; /* Задає темно-сірий фон для секції. */
         color: white; /* Білий текст */
- text-align: center; /* Центрує текст */
+        text-align: center; /* Центрує текст */
         /* padding-bottom: 292px;
         padding-left: 472px;
         padding-top: 116px;
@@ -263,13 +263,6 @@ img {
 .three-section {
         background-color: #F4F4FD; /* Встановлює світло-бузковий фон секції. */
         padding: 120px 0; /* Відступи зверху і знизу */
-}
-
-.ourteam {
-        max-width: 1158px; /* Максимальна ширина контейнера */
-        margin: 0 auto; /* Центрує контейнер по горизонталі */
-        padding: 0 15px; /* Відступи по 15px з боків */
-        margin-bottom: 72px; /* Відступ знизу */
 }
 
 .three-section-h {
