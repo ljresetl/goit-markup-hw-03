@@ -273,15 +273,6 @@ img {
         text-align: center; /* Центрування тексту */
 }
 
-.team-photo {
-        background: url("path_to_image"); /* Встановлює зображення як фон. */
-        border-radius: 50%; /* Кругле зображення */
-        width: 100%; /* Повна ширина блоку */
-        max-width: 260px; /* Максимальна ширина фото */
-        height: auto; /* Пропорційна висота */
-        margin: 0 auto 15px; /* Центрування і відступ знизу */
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Легка тінь */
-}
 
 .team-name {
         font-weight: 500; /* Встановлює середню жирність тексту. */
