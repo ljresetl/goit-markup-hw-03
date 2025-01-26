@@ -274,6 +274,7 @@ img {
         color: #2e2f42; /* Встановлює темно-сірий колір тексту. */
         font-family: "Roboto", sans-serif; /* Використовує шрифт "Roboto". */
         text-transform: capitalize; /* Перетворює першу літеру кожного слова на велику. */
+        margin-bottom: 72px;
         
 }
 
