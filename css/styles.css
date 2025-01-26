@@ -30,13 +30,8 @@ img {
         border-bottom: 1px solid #e7e9fc; /* Нижня рамка */
 }
 
-.container {
-/* display: flex;  Розташування елементів в один рядок */
-        justify-content: space-between; /* Простір між логотипом, меню і контактами */
-        align-items: center; /* Вирівнювання по вертикалі */
-        padding: 0 15px;
-        width: 1158px; /* Ширина контейнера */
-        margin: 0 auto; /* Центрування контейнера */
+.header-container {
+        display: flex;
 }
 
 .main-logo {
