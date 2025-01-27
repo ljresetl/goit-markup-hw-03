@@ -31,14 +31,14 @@ img {
 }
 
 .header-container {
-        padding-bottom: 24px;
-                padding-top: 24px;
-         padding-bottom: 24px 0;
+        padding: 0 15px;
         justify-content: space-between;
         display: flex;
 }
 
 .main-logo {
+        padding-top: 24px;
+        padding-bottom: 24px;
         justify-content: flex-start; /* Вирівнює контент логотипа по лівому краю. */
         font-weight: 700; /* Задає жирність тексту. */
         font-size: 18px; /* Встановлює розмір шрифту у 18px. */
@@ -59,7 +59,6 @@ img {
 }
 
 .menu {
-        /* display: inline-block; */
         font-weight: 500; /* Встановлює середню жирність тексту. */
         font-size: 16px; /* Встановлює розмір шрифту у 16px. */
         line-height: 1.5; /* Встановлює висоту міжрядкового інтервалу. */
@@ -79,14 +78,12 @@ img {
 }
 
 .menu-link {
-        /* display: inline-block; */
-
+        padding-top: 24px;
+        padding-bottom: 24px;
         text-decoration: none; /* Прибрано підкреслення */
         font-size: 16px;
         color: #333;
         transition: color 0.3s ease; /* Анімація зміни кольору */
-        /* padding-bottom: 24px;
-        padding-top: 24px; */
 }
 
 .menu-link:hover {
@@ -103,7 +100,7 @@ img {
         display: flex; /* Горизонтальне вирівнювання контактів */
 }
 
-.contacts-list {       
+.contacts-list {
         display: flex; /* Горизонтальне розташування контактів */
         gap: 40px; /* Відстань між контактами */
         list-style: none; /* Прибрано маркери */
@@ -112,6 +109,8 @@ img {
 }
 
 .contacts-link {
+        padding-top: 24px;
+        padding-bottom: 24px;
         font-weight: 400; /* Встановлює нормальну жирність тексту. */
         font-size: 16px; /* Задає розмір тексту. */
         line-height: 1.5; /* Встановлює міжрядковий інтервал. */
@@ -130,8 +129,7 @@ img {
 }
 
 .contacts-link:focus {
-        color: #404bbf;
-        /* Змінює колір тексту на синій при наведенні. */
+        color: #404bbf; /* Змінює колір тексту на синій при наведенні. */
 }
 
 /* Головний банер */
@@ -372,21 +370,12 @@ img {
         color: #777; /* Колір тексту */
 }
 
-.container_footer {
-        /*padding-top: 100px;  Відступ зверху */
-        /* padding-bottom: 100px;  Відступ знизу */
-        
-}
-
 .footer_test a {
-        /* justify-content: flex-start; */
         display: inline-block; /*Блочні властивості для посилання */
         margin-bottom: 16px; /*Відступ між посиланням та параграфом */
 }
 
 .footer_test .main_logo {
-        /* justify-content: flex-start; */
-        /* align-items: left; */
         font-weight: 700;
         font-size: 18px;
         line-height: 1.16667;
@@ -411,9 +400,7 @@ img {
         letter-spacing: 0.02em;
         color: #f4f4fd;
         font-family: "Roboto", sans-serif; /* Використовує шрифт "Roboto". */ 
-
         max-width: 264px; /* Максимальна ширина тексту */
-        /*margin-left: auto; Центрування */
 
 }
 
