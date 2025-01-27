@@ -31,6 +31,10 @@ img {
 }
 
 .header-container {
+        padding-bottom: 24px;
+                padding-top: 24px;
+         padding-bottom: 24px 0;
+        justify-content: space-between;
         display: flex;
 }
 
@@ -55,6 +59,7 @@ img {
 }
 
 .menu {
+        /* display: inline-block; */
         font-weight: 500; /* Встановлює середню жирність тексту. */
         font-size: 16px; /* Встановлює розмір шрифту у 16px. */
         line-height: 1.5; /* Встановлює висоту міжрядкового інтервалу. */
@@ -74,12 +79,14 @@ img {
 }
 
 .menu-link {
+        /* display: inline-block; */
 
         text-decoration: none; /* Прибрано підкреслення */
         font-size: 16px;
         color: #333;
         transition: color 0.3s ease; /* Анімація зміни кольору */
-        padding: 24px 0;
+        /* padding-bottom: 24px;
+        padding-top: 24px; */
 }
 
 .menu-link:hover {
@@ -96,7 +103,7 @@ img {
         display: flex; /* Горизонтальне вирівнювання контактів */
 }
 
-.contacts-list {
+.contacts-list {       
         display: flex; /* Горизонтальне розташування контактів */
         gap: 40px; /* Відстань між контактами */
         list-style: none; /* Прибрано маркери */
@@ -244,13 +251,13 @@ img {
 }
 
 .three-section-h {
+        font-family: "Roboto", sans-serif; /* Використовує шрифт "Roboto". */
         font-weight: 700; /* Задає жирність тексту. */
         font-size: 36px; /* Задає розмір тексту. */
         line-height: 1.11; /* Встановлює міжрядковий інтервал. */
         letter-spacing: 0.02em; /* Додає відступ між літерами. */
         text-align: center; /* Центрує текст. */
         color: #2e2f42; /* Встановлює темно-сірий колір тексту. */
-        font-family: "Roboto", sans-serif; /* Використовує шрифт "Roboto". */
         text-transform: capitalize; /* Перетворює першу літеру кожного слова на велику. */
         margin-bottom: 72px;
         
@@ -311,9 +318,14 @@ img {
         padding: 0 15px; /* Відступи по 15px з боків */
 }
 
-.four_section_h {
-        text-align: center; /* Центрує заголовок */
-        font-size: 28px;
+.four-section-h {
+        font-family: "Roboto", sans-serif;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.11111;
+        letter-spacing: 0.02em;
+        text-align: center;
+        color: #2e2f42;
         margin-bottom: 72px; /* Відступ між заголовком і списком */
 }
 
@@ -331,14 +343,6 @@ img {
         width: calc((100% - 48px) / 3);
 }
 
-.four_section_foto {
-        width: 100%;
-        max-width: 360px;
-        height: auto;
-        margin: 0 auto 15px;
-        border-radius: 4px;
-}
-
 .spusok {
         padding: 32px 16px;
         border: 1px solid #e7e9fc;
@@ -346,21 +350,27 @@ img {
 }
 
 .four_section_h_one {
-        font-size: 18px;
-        font-weight: bold;
-        margin-bottom: 8px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 1.2;
+        letter-spacing: 0.02em;
+        color: #2e2f42;
 }
 
 .four_section_p_one {
-        font-size: 14px;
-        color: #555;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #434455;
 }
 /* Футер */
 .footer_test {
         background: #2e2f42; /* Встановлює темно-сірий фон для футера. */
 
-        text-align: center; /* Центрує текст */
-        padding: 100px 0; /* Відступи зверху і знизу */
+/* text-align: center;  Центрує текст */
+        /*padding: 100px 0; Відступи зверху і знизу */
         color: #777; /* Колір тексту */
 }
 
@@ -371,39 +381,42 @@ img {
 }
 
 .footer_test a {
+        /* justify-content: flex-start; */
         display: inline-block; /*Блочні властивості для посилання */
         margin-bottom: 16px; /*Відступ між посиланням та параграфом */
 }
 
 .footer_test .main_logo {
-        /* padding-bottom: 16px; */
-        display: inline-block;
+        /* justify-content: flex-start; */
+        /* align-items: left; */
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 1.16667;
+        letter-spacing: 0.03em;
+        text-transform: uppercase;
+        color: #4d5ae5;
         text-decoration: none; /* Прибирає підкреслення з логотипа */
-        font-size: 20px; /* Розмір шрифта для логотипа */
-        color: #4d5ae5;; /* Колір тексту для логотипа */
+
+        
+
+
 }
 
 .footer_test .main_logo span {
-        font-weight: 700; /* Робить текст жирним. */
-        font-size: 18px; /* Задає розмір тексту. */
-        line-height: 1.16667; /* Встановлює міжрядковий інтервал. */
-        letter-spacing: 0.03em; /* Додає відступ між літерами. */
-        text-transform: uppercase; /* Перетворює текст у верхній регістр. */
-        color: #f4f4fd; /* Задає білий колір тексту. */
-        font-family: "Raleway", sans-serif; /* Використовує шрифт "Raleway". */
+        color: #f4f4fd;
 }
 
 .text_p_footer {
-        font-weight: 400; /* Встановлює нормальну жирність тексту. */
-        font-size: 16px; /* Задає розмір тексту. */
-        line-height: 1.5; /* Встановлює міжрядковий інтервал. */
-        letter-spacing: 0.02em; /* Додає відступ між літерами. */
-        color: #f4f4fd; /* Встановлює білий колір тексту. */
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+        color: #f4f4fd;
         font-family: "Roboto", sans-serif; /* Використовує шрифт "Roboto". */ 
-        margin-top: 10px; /* Відступ зверху */
+
         max-width: 264px; /* Максимальна ширина тексту */
-        margin-left: auto; /*Центрування */
-        margin-right: auto; /*Центрування */
+        /*margin-left: auto; Центрування */
+
 }
 
 /* Падінг (англ. padding, внутрішнє поле) — це відстань між контентом елемента і його рамкою (border). 
