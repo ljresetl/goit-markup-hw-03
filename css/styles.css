@@ -97,11 +97,11 @@ img {
 .contacts {
         font-style: normal; /* Змінює стиль шрифту на звичайний. */
         gap: 40px;
-        display: flex; /* Горизонтальне вирівнювання контактів */
+        /*display: flex; Горизонтальне вирівнювання контактів */
 }
 
 .contacts-list {
-        display: flex; /* Горизонтальне розташування контактів */
+        display: flex; /*Горизонтальне розташування контактів */
         gap: 40px; /* Відстань між контактами */
         list-style: none; /* Прибрано маркери */
         margin: 0;
@@ -109,6 +109,7 @@ img {
 }
 
 .contacts-link {
+        display: block;
         padding-top: 24px;
         padding-bottom: 24px;
         font-weight: 400; /* Встановлює нормальну жирність тексту. */
