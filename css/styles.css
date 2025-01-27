@@ -368,16 +368,14 @@ img {
 /* Футер */
 .footer_test {
         background: #2e2f42; /* Встановлює темно-сірий фон для футера. */
-
-/* text-align: center;  Центрує текст */
-        /*padding: 100px 0; Відступи зверху і знизу */
+        padding: 100px 0; /*Відступи зверху і знизу */
         color: #777; /* Колір тексту */
 }
 
 .container_footer {
-        padding-top: 100px; /* Відступ зверху */
-        padding-bottom: 100px; /* Відступ знизу */
-        /* padding-left: 156px; */
+        /*padding-top: 100px;  Відступ зверху */
+        /* padding-bottom: 100px;  Відступ знизу */
+        
 }
 
 .footer_test a {
